@@ -27,3 +27,4 @@ class MealService {
         return response["meals"]?.first ?? MealDetail(name: "", instructions: "", ingredients: [])
     }
 }
+
